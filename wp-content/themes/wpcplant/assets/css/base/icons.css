@@ -1,0 +1,2440 @@
+@font-face {
+  font-family: "wpcplant-icon";
+  src: url("../../../assets/fonts/wpcplant-icon.eot");
+  src: url("../../../assets/fonts/wpcplant-icon.eot#iefix") format("embedded-opentype"), url("../../../assets/fonts/wpcplant-icon.ttf") format("truetype"), url("../../../assets/fonts/wpcplant-icon.woff") format("woff"), url("../../../assets/fonts/wpcplant-icon.svg#wpcplant-icon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+.wpcplant-spin {
+  -webkit-animation: wpcplant-spin 2s infinite linear;
+          animation: wpcplant-spin 2s infinite linear;
+}
+
+.wpcplant-pulse {
+  -webkit-animation: wpcplant-spin 1s infinite steps(8);
+          animation: wpcplant-spin 1s infinite steps(8);
+}
+
+@-webkit-keyframes wpcplant-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes wpcplant-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+[class^=wpcplant-icon-], [class*=" wpcplant-icon-"] {
+  font-family: "wpcplant-icon";
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.wpcplant-icon-activity:before {
+  content: "\e900";
+}
+
+.wpcplant-icon-airplay:before {
+  content: "\e901";
+}
+
+.wpcplant-icon-alert-circle:before {
+  content: "\e902";
+}
+
+.wpcplant-icon-alert-octagon:before {
+  content: "\e903";
+}
+
+.wpcplant-icon-alert-triangle:before {
+  content: "\e904";
+}
+
+.wpcplant-icon-align-center:before {
+  content: "\e905";
+}
+
+.wpcplant-icon-align-justify:before {
+  content: "\e906";
+}
+
+.wpcplant-icon-align-left:before {
+  content: "\e907";
+}
+
+.wpcplant-icon-align-right:before {
+  content: "\e908";
+}
+
+.wpcplant-icon-anchor:before {
+  content: "\e909";
+}
+
+.wpcplant-icon-aperture:before {
+  content: "\e90a";
+}
+
+.wpcplant-icon-archive:before {
+  content: "\e90b";
+}
+
+.wpcplant-icon-arrow-down-circle:before {
+  content: "\e90c";
+}
+
+.wpcplant-icon-arrow-down-left:before {
+  content: "\e90d";
+}
+
+.wpcplant-icon-arrow-down-right:before {
+  content: "\e90e";
+}
+
+.wpcplant-icon-arrow-down:before {
+  content: "\e90f";
+}
+
+.wpcplant-icon-arrow-left-circle:before {
+  content: "\e910";
+}
+
+.wpcplant-icon-arrow-left:before {
+  content: "\e911";
+}
+
+.wpcplant-icon-arrow-right-circle:before {
+  content: "\e912";
+}
+
+.wpcplant-icon-arrow-right:before {
+  content: "\e913";
+}
+
+.wpcplant-icon-arrow-up-circle:before {
+  content: "\e914";
+}
+
+.wpcplant-icon-arrow-up-left:before {
+  content: "\e915";
+}
+
+.wpcplant-icon-arrow-up-right:before {
+  content: "\e916";
+}
+
+.wpcplant-icon-arrow-up:before {
+  content: "\e917";
+}
+
+.wpcplant-icon-at-sign:before {
+  content: "\e918";
+}
+
+.wpcplant-icon-award:before {
+  content: "\e919";
+}
+
+.wpcplant-icon-bar-chart-2:before {
+  content: "\e91a";
+}
+
+.wpcplant-icon-bar-chart:before {
+  content: "\e91b";
+}
+
+.wpcplant-icon-battery-charging:before {
+  content: "\e91c";
+}
+
+.wpcplant-icon-battery:before {
+  content: "\e91d";
+}
+
+.wpcplant-icon-bell-off:before {
+  content: "\e91e";
+}
+
+.wpcplant-icon-bell:before {
+  content: "\e91f";
+}
+
+.wpcplant-icon-bluetooth:before {
+  content: "\e920";
+}
+
+.wpcplant-icon-bold:before {
+  content: "\e921";
+}
+
+.wpcplant-icon-book-open:before {
+  content: "\e922";
+}
+
+.wpcplant-icon-book:before {
+  content: "\e923";
+}
+
+.wpcplant-icon-bookmark:before {
+  content: "\e924";
+}
+
+.wpcplant-icon-box:before {
+  content: "\e925";
+}
+
+.wpcplant-icon-briefcase:before {
+  content: "\e926";
+}
+
+.wpcplant-icon-calendar:before {
+  content: "\e927";
+}
+
+.wpcplant-icon-camera-off:before {
+  content: "\e928";
+}
+
+.wpcplant-icon-camera:before {
+  content: "\e929";
+}
+
+.wpcplant-icon-cast:before {
+  content: "\e92a";
+}
+
+.wpcplant-icon-check-circle:before {
+  content: "\e92b";
+}
+
+.wpcplant-icon-check-square:before {
+  content: "\e92c";
+}
+
+.wpcplant-icon-check:before {
+  content: "\e92d";
+}
+
+.wpcplant-icon-chevron-down:before {
+  content: "\e92e";
+}
+
+.wpcplant-icon-chevron-left:before {
+  content: "\e92f";
+}
+
+.wpcplant-icon-chevron-right:before {
+  content: "\e930";
+}
+
+.wpcplant-icon-chevron-up:before {
+  content: "\e931";
+}
+
+.wpcplant-icon-chevrons-down:before {
+  content: "\e932";
+}
+
+.wpcplant-icon-chevrons-left:before {
+  content: "\e933";
+}
+
+.wpcplant-icon-chevrons-right:before {
+  content: "\e934";
+}
+
+.wpcplant-icon-chevrons-up:before {
+  content: "\e935";
+}
+
+.wpcplant-icon-chrome:before {
+  content: "\e936";
+}
+
+.wpcplant-icon-circle:before {
+  content: "\e937";
+}
+
+.wpcplant-icon-clipboard:before {
+  content: "\e938";
+}
+
+.wpcplant-icon-clock:before {
+  content: "\e939";
+}
+
+.wpcplant-icon-cloud-drizzle:before {
+  content: "\e93a";
+}
+
+.wpcplant-icon-cloud-lightning:before {
+  content: "\e93b";
+}
+
+.wpcplant-icon-cloud-off:before {
+  content: "\e93c";
+}
+
+.wpcplant-icon-cloud-rain:before {
+  content: "\e93d";
+}
+
+.wpcplant-icon-cloud-snow:before {
+  content: "\e93e";
+}
+
+.wpcplant-icon-cloud:before {
+  content: "\e93f";
+}
+
+.wpcplant-icon-code:before {
+  content: "\e940";
+}
+
+.wpcplant-icon-codepen:before {
+  content: "\e941";
+}
+
+.wpcplant-icon-codesandbox:before {
+  content: "\e942";
+}
+
+.wpcplant-icon-coffee:before {
+  content: "\e943";
+}
+
+.wpcplant-icon-columns:before {
+  content: "\e944";
+}
+
+.wpcplant-icon-command:before {
+  content: "\e945";
+}
+
+.wpcplant-icon-compass:before {
+  content: "\e946";
+}
+
+.wpcplant-icon-copy:before {
+  content: "\e947";
+}
+
+.wpcplant-icon-corner-down-left:before {
+  content: "\e948";
+}
+
+.wpcplant-icon-corner-down-right:before {
+  content: "\e949";
+}
+
+.wpcplant-icon-corner-left-down:before {
+  content: "\e94a";
+}
+
+.wpcplant-icon-corner-left-up:before {
+  content: "\e94b";
+}
+
+.wpcplant-icon-corner-right-down:before {
+  content: "\e94c";
+}
+
+.wpcplant-icon-corner-right-up:before {
+  content: "\e94d";
+}
+
+.wpcplant-icon-corner-up-left:before {
+  content: "\e94e";
+}
+
+.wpcplant-icon-corner-up-right:before {
+  content: "\e94f";
+}
+
+.wpcplant-icon-cpu:before {
+  content: "\e950";
+}
+
+.wpcplant-icon-crop:before {
+  content: "\e951";
+}
+
+.wpcplant-icon-crosshair:before {
+  content: "\e952";
+}
+
+.wpcplant-icon-database:before {
+  content: "\e953";
+}
+
+.wpcplant-icon-delete:before {
+  content: "\e954";
+}
+
+.wpcplant-icon-disc:before {
+  content: "\e955";
+}
+
+.wpcplant-icon-divide-circle:before {
+  content: "\e956";
+}
+
+.wpcplant-icon-divide-square:before {
+  content: "\e957";
+}
+
+.wpcplant-icon-divide:before {
+  content: "\e958";
+}
+
+.wpcplant-icon-dollar-sign:before {
+  content: "\e959";
+}
+
+.wpcplant-icon-download-cloud:before {
+  content: "\e95a";
+}
+
+.wpcplant-icon-download:before {
+  content: "\e95b";
+}
+
+.wpcplant-icon-dribbble:before {
+  content: "\e95c";
+}
+
+.wpcplant-icon-droplet:before {
+  content: "\e95d";
+}
+
+.wpcplant-icon-edit-2:before {
+  content: "\e95e";
+}
+
+.wpcplant-icon-edit-3:before {
+  content: "\e95f";
+}
+
+.wpcplant-icon-edit:before {
+  content: "\e960";
+}
+
+.wpcplant-icon-external-link:before {
+  content: "\e961";
+}
+
+.wpcplant-icon-eye-off:before {
+  content: "\e962";
+}
+
+.wpcplant-icon-eye:before {
+  content: "\e963";
+}
+
+.wpcplant-icon-facebook:before {
+  content: "\e964";
+}
+
+.wpcplant-icon-fast-forward:before {
+  content: "\e965";
+}
+
+.wpcplant-icon-feather:before {
+  content: "\e966";
+}
+
+.wpcplant-icon-figma:before {
+  content: "\e967";
+}
+
+.wpcplant-icon-file-minus:before {
+  content: "\e968";
+}
+
+.wpcplant-icon-file-plus:before {
+  content: "\e969";
+}
+
+.wpcplant-icon-file-text:before {
+  content: "\e96a";
+}
+
+.wpcplant-icon-file:before {
+  content: "\e96b";
+}
+
+.wpcplant-icon-film:before {
+  content: "\e96c";
+}
+
+.wpcplant-icon-filter:before {
+  content: "\e96d";
+}
+
+.wpcplant-icon-flag:before {
+  content: "\e96e";
+}
+
+.wpcplant-icon-folder-minus:before {
+  content: "\e96f";
+}
+
+.wpcplant-icon-folder-plus:before {
+  content: "\e970";
+}
+
+.wpcplant-icon-folder:before {
+  content: "\e971";
+}
+
+.wpcplant-icon-framer:before {
+  content: "\e972";
+}
+
+.wpcplant-icon-frown:before {
+  content: "\e973";
+}
+
+.wpcplant-icon-gift:before {
+  content: "\e974";
+}
+
+.wpcplant-icon-git-branch:before {
+  content: "\e975";
+}
+
+.wpcplant-icon-git-commit:before {
+  content: "\e976";
+}
+
+.wpcplant-icon-git-merge:before {
+  content: "\e977";
+}
+
+.wpcplant-icon-git-pull-request:before {
+  content: "\e978";
+}
+
+.wpcplant-icon-github:before {
+  content: "\e979";
+}
+
+.wpcplant-icon-gitlab:before {
+  content: "\e97a";
+}
+
+.wpcplant-icon-globe:before {
+  content: "\e97b";
+}
+
+.wpcplant-icon-grid:before {
+  content: "\e97c";
+}
+
+.wpcplant-icon-hard-drive:before {
+  content: "\e97d";
+}
+
+.wpcplant-icon-hash:before {
+  content: "\e97e";
+}
+
+.wpcplant-icon-headphones:before {
+  content: "\e97f";
+}
+
+.wpcplant-icon-heart:before {
+  content: "\e980";
+}
+
+.wpcplant-icon-help-circle:before {
+  content: "\e981";
+}
+
+.wpcplant-icon-hexagon:before {
+  content: "\e982";
+}
+
+.wpcplant-icon-home:before {
+  content: "\e983";
+}
+
+.wpcplant-icon-image:before {
+  content: "\e984";
+}
+
+.wpcplant-icon-inbox:before {
+  content: "\e985";
+}
+
+.wpcplant-icon-info:before {
+  content: "\e986";
+}
+
+.wpcplant-icon-instagram:before {
+  content: "\e987";
+}
+
+.wpcplant-icon-italic:before {
+  content: "\e988";
+}
+
+.wpcplant-icon-key:before {
+  content: "\e989";
+}
+
+.wpcplant-icon-layers:before {
+  content: "\e98a";
+}
+
+.wpcplant-icon-layout:before {
+  content: "\e98b";
+}
+
+.wpcplant-icon-life-buoy:before {
+  content: "\e98c";
+}
+
+.wpcplant-icon-link-2:before {
+  content: "\e98d";
+}
+
+.wpcplant-icon-link:before {
+  content: "\e98e";
+}
+
+.wpcplant-icon-linkedin:before {
+  content: "\e98f";
+}
+
+.wpcplant-icon-list:before {
+  content: "\e990";
+}
+
+.wpcplant-icon-loader:before {
+  content: "\e991";
+}
+
+.wpcplant-icon-lock:before {
+  content: "\e992";
+}
+
+.wpcplant-icon-log-in:before {
+  content: "\e993";
+}
+
+.wpcplant-icon-log-out:before {
+  content: "\e994";
+}
+
+.wpcplant-icon-mail:before {
+  content: "\e995";
+}
+
+.wpcplant-icon-map-pin:before {
+  content: "\e996";
+}
+
+.wpcplant-icon-map:before {
+  content: "\e997";
+}
+
+.wpcplant-icon-maximize-2:before {
+  content: "\e998";
+}
+
+.wpcplant-icon-maximize:before {
+  content: "\e999";
+}
+
+.wpcplant-icon-meh:before {
+  content: "\e99a";
+}
+
+.wpcplant-icon-menu:before {
+  content: "\e99b";
+}
+
+.wpcplant-icon-message-circle:before {
+  content: "\e99c";
+}
+
+.wpcplant-icon-message-square:before {
+  content: "\e99d";
+}
+
+.wpcplant-icon-mic-off:before {
+  content: "\e99e";
+}
+
+.wpcplant-icon-mic:before {
+  content: "\e99f";
+}
+
+.wpcplant-icon-minimize-2:before {
+  content: "\e9a0";
+}
+
+.wpcplant-icon-minimize:before {
+  content: "\e9a1";
+}
+
+.wpcplant-icon-minus-circle:before {
+  content: "\e9a2";
+}
+
+.wpcplant-icon-minus-square:before {
+  content: "\e9a3";
+}
+
+.wpcplant-icon-minus:before {
+  content: "\e9a4";
+}
+
+.wpcplant-icon-monitor:before {
+  content: "\e9a5";
+}
+
+.wpcplant-icon-moon:before {
+  content: "\e9a6";
+}
+
+.wpcplant-icon-more-horizontal:before {
+  content: "\e9a7";
+}
+
+.wpcplant-icon-more-vertical:before {
+  content: "\e9a8";
+}
+
+.wpcplant-icon-mouse-pointer:before {
+  content: "\e9a9";
+}
+
+.wpcplant-icon-move:before {
+  content: "\e9aa";
+}
+
+.wpcplant-icon-music:before {
+  content: "\e9ab";
+}
+
+.wpcplant-icon-navigation-2:before {
+  content: "\e9ac";
+}
+
+.wpcplant-icon-navigation:before {
+  content: "\e9ad";
+}
+
+.wpcplant-icon-octagon:before {
+  content: "\e9ae";
+}
+
+.wpcplant-icon-package:before {
+  content: "\e9af";
+}
+
+.wpcplant-icon-paperclip:before {
+  content: "\e9b0";
+}
+
+.wpcplant-icon-pause-circle:before {
+  content: "\e9b1";
+}
+
+.wpcplant-icon-pause:before {
+  content: "\e9b2";
+}
+
+.wpcplant-icon-pen-tool:before {
+  content: "\e9b3";
+}
+
+.wpcplant-icon-percent:before {
+  content: "\e9b4";
+}
+
+.wpcplant-icon-phone-call:before {
+  content: "\e9b5";
+}
+
+.wpcplant-icon-phone-forwarded:before {
+  content: "\e9b6";
+}
+
+.wpcplant-icon-phone-incoming:before {
+  content: "\e9b7";
+}
+
+.wpcplant-icon-phone-missed:before {
+  content: "\e9b8";
+}
+
+.wpcplant-icon-phone-off:before {
+  content: "\e9b9";
+}
+
+.wpcplant-icon-phone-outgoing:before {
+  content: "\e9ba";
+}
+
+.wpcplant-icon-phone:before {
+  content: "\e9bb";
+}
+
+.wpcplant-icon-pie-chart:before {
+  content: "\e9bc";
+}
+
+.wpcplant-icon-play-circle:before {
+  content: "\e9bd";
+}
+
+.wpcplant-icon-play:before {
+  content: "\e9be";
+}
+
+.wpcplant-icon-plus-circle:before {
+  content: "\e9bf";
+}
+
+.wpcplant-icon-plus-square:before {
+  content: "\e9c0";
+}
+
+.wpcplant-icon-plus:before {
+  content: "\e9c1";
+}
+
+.wpcplant-icon-pocket:before {
+  content: "\e9c2";
+}
+
+.wpcplant-icon-power:before {
+  content: "\e9c3";
+}
+
+.wpcplant-icon-printer:before {
+  content: "\e9c4";
+}
+
+.wpcplant-icon-radio:before {
+  content: "\e9c5";
+}
+
+.wpcplant-icon-refresh-ccw:before {
+  content: "\e9c6";
+}
+
+.wpcplant-icon-refresh-cw:before {
+  content: "\e9c7";
+}
+
+.wpcplant-icon-repeat:before {
+  content: "\e9c8";
+}
+
+.wpcplant-icon-rewind:before {
+  content: "\e9c9";
+}
+
+.wpcplant-icon-rotate-ccw:before {
+  content: "\e9ca";
+}
+
+.wpcplant-icon-rotate-cw:before {
+  content: "\e9cb";
+}
+
+.wpcplant-icon-rss:before {
+  content: "\e9cc";
+}
+
+.wpcplant-icon-save:before {
+  content: "\e9cd";
+}
+
+.wpcplant-icon-scissors:before {
+  content: "\e9ce";
+}
+
+.wpcplant-icon-search:before {
+  content: "\e9cf";
+}
+
+.wpcplant-icon-send:before {
+  content: "\e9d0";
+}
+
+.wpcplant-icon-server:before {
+  content: "\e9d1";
+}
+
+.wpcplant-icon-settings:before {
+  content: "\e9d2";
+}
+
+.wpcplant-icon-share-2:before {
+  content: "\e9d3";
+}
+
+.wpcplant-icon-share:before {
+  content: "\e9d4";
+}
+
+.wpcplant-icon-shield-off:before {
+  content: "\e9d5";
+}
+
+.wpcplant-icon-shield:before {
+  content: "\e9d6";
+}
+
+.wpcplant-icon-shopping-bag:before {
+  content: "\e9d7";
+}
+
+.wpcplant-icon-shopping-cart:before {
+  content: "\e9d8";
+}
+
+.wpcplant-icon-shuffle:before {
+  content: "\e9d9";
+}
+
+.wpcplant-icon-sidebar:before {
+  content: "\e9da";
+}
+
+.wpcplant-icon-skip-back:before {
+  content: "\e9db";
+}
+
+.wpcplant-icon-skip-forward:before {
+  content: "\e9dc";
+}
+
+.wpcplant-icon-slack:before {
+  content: "\e9dd";
+}
+
+.wpcplant-icon-slash:before {
+  content: "\e9de";
+}
+
+.wpcplant-icon-sliders:before {
+  content: "\e9df";
+}
+
+.wpcplant-icon-smartphone:before {
+  content: "\e9e0";
+}
+
+.wpcplant-icon-smile:before {
+  content: "\e9e1";
+}
+
+.wpcplant-icon-speaker:before {
+  content: "\e9e2";
+}
+
+.wpcplant-icon-square:before {
+  content: "\e9e3";
+}
+
+.wpcplant-icon-star:before {
+  content: "\e9e4";
+}
+
+.wpcplant-icon-stop-circle:before {
+  content: "\e9e5";
+}
+
+.wpcplant-icon-sun:before {
+  content: "\e9e6";
+}
+
+.wpcplant-icon-sunrise:before {
+  content: "\e9e7";
+}
+
+.wpcplant-icon-sunset:before {
+  content: "\e9e8";
+}
+
+.wpcplant-icon-tablet:before {
+  content: "\e9e9";
+}
+
+.wpcplant-icon-tag:before {
+  content: "\e9ea";
+}
+
+.wpcplant-icon-target:before {
+  content: "\e9eb";
+}
+
+.wpcplant-icon-terminal:before {
+  content: "\e9ec";
+}
+
+.wpcplant-icon-thermometer:before {
+  content: "\e9ed";
+}
+
+.wpcplant-icon-thumbs-down:before {
+  content: "\e9ee";
+}
+
+.wpcplant-icon-thumbs-up:before {
+  content: "\e9ef";
+}
+
+.wpcplant-icon-toggle-left:before {
+  content: "\e9f0";
+}
+
+.wpcplant-icon-toggle-right:before {
+  content: "\e9f1";
+}
+
+.wpcplant-icon-tool:before {
+  content: "\e9f2";
+}
+
+.wpcplant-icon-trash-2:before {
+  content: "\e9f3";
+}
+
+.wpcplant-icon-trash:before {
+  content: "\e9f4";
+}
+
+.wpcplant-icon-trello:before {
+  content: "\e9f5";
+}
+
+.wpcplant-icon-trending-down:before {
+  content: "\e9f6";
+}
+
+.wpcplant-icon-trending-up:before {
+  content: "\e9f7";
+}
+
+.wpcplant-icon-triangle:before {
+  content: "\e9f8";
+}
+
+.wpcplant-icon-truck:before {
+  content: "\e9f9";
+}
+
+.wpcplant-icon-tv:before {
+  content: "\e9fa";
+}
+
+.wpcplant-icon-twitch:before {
+  content: "\e9fb";
+}
+
+.wpcplant-icon-twitter:before {
+  content: "\e9fc";
+}
+
+.wpcplant-icon-umbrella:before {
+  content: "\e9fd";
+}
+
+.wpcplant-icon-underline:before {
+  content: "\e9fe";
+}
+
+.wpcplant-icon-unlock:before {
+  content: "\e9ff";
+}
+
+.wpcplant-icon-upload-cloud:before {
+  content: "\ea00";
+}
+
+.wpcplant-icon-upload:before {
+  content: "\ea01";
+}
+
+.wpcplant-icon-user-check:before {
+  content: "\ea02";
+}
+
+.wpcplant-icon-user-minus:before {
+  content: "\ea03";
+}
+
+.wpcplant-icon-user-plus:before {
+  content: "\ea04";
+}
+
+.wpcplant-icon-user-x:before {
+  content: "\ea05";
+}
+
+.wpcplant-icon-user:before {
+  content: "\ea06";
+}
+
+.wpcplant-icon-users:before {
+  content: "\ea07";
+}
+
+.wpcplant-icon-video-off:before {
+  content: "\ea08";
+}
+
+.wpcplant-icon-video:before {
+  content: "\ea09";
+}
+
+.wpcplant-icon-voicemail:before {
+  content: "\ea0a";
+}
+
+.wpcplant-icon-volume-1:before {
+  content: "\ea0b";
+}
+
+.wpcplant-icon-volume-2:before {
+  content: "\ea0c";
+}
+
+.wpcplant-icon-volume-x:before {
+  content: "\ea0d";
+}
+
+.wpcplant-icon-volume:before {
+  content: "\ea0e";
+}
+
+.wpcplant-icon-watch:before {
+  content: "\ea0f";
+}
+
+.wpcplant-icon-wifi-off:before {
+  content: "\ea10";
+}
+
+.wpcplant-icon-wifi:before {
+  content: "\ea11";
+}
+
+.wpcplant-icon-wind:before {
+  content: "\ea12";
+}
+
+.wpcplant-icon-x-circle:before {
+  content: "\ea13";
+}
+
+.wpcplant-icon-x-octagon:before {
+  content: "\ea14";
+}
+
+.wpcplant-icon-x-square:before {
+  content: "\ea15";
+}
+
+.wpcplant-icon-x:before {
+  content: "\ea16";
+}
+
+.wpcplant-icon-youtube:before {
+  content: "\ea17";
+}
+
+.wpcplant-icon-zap-off:before {
+  content: "\ea18";
+}
+
+.wpcplant-icon-zap:before {
+  content: "\ea19";
+}
+
+.wpcplant-icon-zoom-in:before {
+  content: "\ea1a";
+}
+
+.wpcplant-icon-zoom-out:before {
+  content: "\ea1b";
+}
+
+.site-search .widget_product_search form input[type=search],
+.site-search .widget_product_search form input[type=text] {
+  padding-right: 2.617924em;
+}
+
+#comments .comment-list .bypostauthor > .comment-body cite a::after {
+  font-family: "wpcplant-icon";
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\e96b";
+  margin-left: 0.5407911001em;
+}
+#comments .comment-list .reply a::after {
+  font-family: "wpcplant-icon";
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\e94e";
+  display: inline-block;
+  margin-left: 0.5407911001em;
+}
+#comments .comment-list .reply a.comment-edit-link::after {
+  font-family: "wpcplant-icon";
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  content: "\e95e";
+}
+
+#respond #cancel-comment-reply-link::before {
+  font-family: "wpcplant-icon";
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\ea13";
+  display: block;
+}
+
+.sticky .entry-title::before {
+  font-family: "wpcplant-icon";
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\e924";
+  margin-right: 0.5407911001em;
+  vertical-align: middle;
+}
+
+button.loading::after,
+input[type=button].loading::after,
+input[type=reset].loading::after,
+input[type=submit].loading::after,
+.button.loading::after,
+.wc-block-grid__products .wc-block-grid__product .wp-block-button__link.loading::after,
+.added_to_cart.loading::after {
+  font-family: "wpcplant-icon";
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\e9c7" !important;
+  -webkit-animation: wpcplant-spin 0.75s linear infinite;
+          animation: wpcplant-spin 0.75s linear infinite;
+  height: 20px;
+  width: 20px;
+  line-height: 20px;
+  text-align: center;
+  display: inline-block;
+  margin-left: 10px;
+}
+button.added::after,
+input[type=button].added::after,
+input[type=reset].added::after,
+input[type=submit].added::after,
+.button.added::after,
+.wc-block-grid__products .wc-block-grid__product .wp-block-button__link.added::after,
+.added_to_cart.added::after {
+  font-family: "wpcplant-icon";
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\e92d" !important;
+  height: 20px;
+  width: 20px;
+  line-height: 20px;
+  text-align: center;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.handheld-navigation ul.menu li button::after {
+  font-family: "wpcplant-icon";
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\e92e";
+}
+
+.site-main nav.navigation .nav-previous a::before {
+  font-family: "wpcplant-icon";
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\e911";
+  margin-right: 0.5407911001em;
+}
+.site-main nav.navigation .nav-next a::after {
+  font-family: "wpcplant-icon";
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\e913";
+  margin-left: 0.5407911001em;
+}
+
+.widget_search form::before,
+.widget_product_search form::before {
+  font-family: "wpcplant-icon";
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\e9cf";
+  position: absolute;
+  top: 1em;
+  right: 1em;
+  line-height: 1;
+  color: var(--heading);
+}
+.widget_search form input[type=text],
+.widget_search form input[type=search],
+.widget_product_search form input[type=text],
+.widget_product_search form input[type=search] {
+  padding-right: 2.617924em;
+  border-radius: 30px;
+}
+
+.single-product .pswp__button {
+  background-color: transparent;
+}
+.single-product div.product .woocommerce-product-gallery .woocommerce-product-gallery__trigger {
+  text-indent: -999px;
+  overflow: hidden;
+}
+.single-product div.product .woocommerce-product-gallery .woocommerce-product-gallery__trigger::before {
+  font-family: "wpcplant-icon";
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\e9cf";
+  font-size: 14px;
+  display: block;
+  line-height: 45px;
+  text-indent: 0;
+}
+.single-product div.product .woocommerce-product-gallery .woocommerce-product-gallery__trigger img {
+  display: none !important;
+}
+
+.show-password-input::after {
+  font-family: "wpcplant-icon";
+  font-weight: 900;
+  vertical-align: baseline;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  line-height: 1;
+  content: "\e963";
+}
+
+.stock::before {
+  font-family: "wpcplant-icon";
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin-right: 0.5407911001em;
+}
+.stock.in-stock::before {
+  content: "\e9e1";
+}
+.stock.out-of-stock::before {
+  content: "\e973";
+}
+
+a.reset_variations::before {
+  font-family: "wpcplant-icon";
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\e9c7";
+  margin-right: 0.5407911001em;
+}
+
+.woocommerce-breadcrumb a {
+  text-decoration: none;
+}
+.woocommerce-breadcrumb a:first-of-type::before {
+  font-family: "wpcplant-icon";
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  vertical-align: middle;
+  content: "\e983";
+  margin-right: 0.5407911001em;
+}
+
+.widget_recent_entries ul,
+.widget_pages ul,
+.widget_categories ul,
+.widget_archive ul,
+.widget_recent_comments ul,
+.widget_nav_menu ul,
+.widget_links ul,
+.widget_product_categories ul,
+.widget_layered_nav ul,
+.widget_layered_nav_filters ul {
+  margin: 0;
+}
+.widget_recent_entries ul li,
+.widget_pages ul li,
+.widget_categories ul li,
+.widget_archive ul li,
+.widget_recent_comments ul li,
+.widget_nav_menu ul li,
+.widget_links ul li,
+.widget_product_categories ul li,
+.widget_layered_nav ul li,
+.widget_layered_nav_filters ul li {
+  padding-left: 1.618em;
+}
+.widget_recent_entries ul li::before,
+.widget_pages ul li::before,
+.widget_categories ul li::before,
+.widget_archive ul li::before,
+.widget_recent_comments ul li::before,
+.widget_nav_menu ul li::before,
+.widget_links ul li::before,
+.widget_product_categories ul li::before,
+.widget_layered_nav ul li::before,
+.widget_layered_nav_filters ul li::before {
+  font-family: "wpcplant-icon";
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin-right: 0.5407911001em;
+  display: block;
+  float: left;
+  margin-left: -1.618em;
+  margin-top: 2px;
+  width: 1em;
+  line-height: inherit;
+}
+
+.widget_product_categories ul li::before {
+  font-family: "wpcplant-icon";
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\e971";
+}
+.widget_product_categories ul li.current-cat::before {
+  content: "\e971";
+}
+.site-footer .widget_product_categories ul li {
+  padding-left: 0;
+}
+.site-footer .widget_product_categories ul li::before {
+  content: "";
+}
+.site-footer .widget_product_categories ul li.current-cat::before {
+  content: "";
+}
+
+.widget_layered_nav li::before {
+  font-family: "wpcplant-icon";
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\e9e3";
+}
+.widget_layered_nav .chosen::before {
+  font-family: "wpcplant-icon";
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\e92c";
+}
+
+.widget_layered_nav_filters ul li.chosen::before {
+  font-family: "wpcplant-icon";
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\ea15";
+  color: var(--error);
+  opacity: 1;
+}
+
+.widget_recent_entries ul li::before,
+.widget_pages ul li::before {
+  content: "\e96b";
+}
+
+.widget_categories ul li::before {
+  content: "\e971";
+}
+.widget_categories ul li.current-cat::before {
+  content: "\e971";
+}
+
+.widget_archive ul li::before {
+  content: "\e971";
+}
+
+.widget_recent_comments ul li::before {
+  content: "\e99c";
+}
+
+.widget_nav_menu ul li::before {
+  content: "\e96b";
+}
+
+.widget_links ul li::before {
+  content: "\e98e";
+}
+
+a.remove {
+  display: block;
+  width: 1.618em;
+  height: 1.618em;
+  line-height: 1.618;
+  font-weight: 400;
+  text-indent: -9999px;
+  overflow: hidden;
+  position: relative;
+}
+a.remove::before {
+  font-family: "wpcplant-icon";
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\ea16";
+  font-size: 12px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  color: var(--text);
+  line-height: 1.618;
+  text-indent: 0;
+  text-align: center;
+}
+
+.single-product div.product .summary .cart .button:before, li.product .button:before {
+  font-family: "wpcplant-icon";
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\e990";
+  font-weight: 600;
+  margin-right: 10px;
+}
+.single-product div.product .summary .cart .button.add_to_cart_button:before, .single-product div.product .summary .cart .button.single_add_to_cart_button:before, li.product .button.add_to_cart_button:before, li.product .button.single_add_to_cart_button:before {
+  content: "\e9d8";
+}
+.single-product div.product .summary .cart .button.product_type_variable:before, li.product .button.product_type_variable:before {
+  content: "\e990";
+}
+
+.woocommerce-shipping-calculator > p:first-child a::before {
+  font-family: "wpcplant-icon";
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\e9f9";
+  margin-right: 0.3342343017em;
+}
+
+.blockUI::before {
+  font-family: "wpcplant-icon";
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\e9c7";
+  -webkit-animation: wpcplant-spin 0.75s linear infinite;
+          animation: wpcplant-spin 0.75s linear infinite;
+  height: 30px;
+  width: 30px;
+  line-height: 30px;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -15px;
+  margin-top: -15px;
+}
+
+.wc_request_button_is_disabled .blockUI {
+  cursor: not-allowed !important;
+}
+.wc_request_button_is_disabled .blockUI::before {
+  content: none;
+}
+
+.pagination .next,
+.pagination .prev,
+.woocommerce-pagination .next,
+.woocommerce-pagination .prev {
+  text-indent: -9999px;
+  position: relative;
+  overflow: hidden;
+}
+.pagination .next::after,
+.pagination .prev::after,
+.woocommerce-pagination .next::after,
+.woocommerce-pagination .prev::after {
+  font-family: "wpcplant-icon";
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\e911";
+  font-size: 12px;
+  text-indent: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+.pagination .next::after,
+.woocommerce-pagination .next::after {
+  content: "\e913";
+}
+
+.woocommerce-breadcrumb .breadcrumb-separator {
+  text-indent: -9999px;
+  position: relative;
+  display: inline-block;
+  padding: 0 6.8535260698em;
+}
+.woocommerce-breadcrumb .breadcrumb-separator::after {
+  font-family: "wpcplant-icon";
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\e930";
+  display: block;
+  font-size: 8px;
+  text-indent: 0;
+  line-height: initial;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 1em;
+  height: 1em;
+  transform: translateX(-50%) translateY(-50%);
+  text-align: center;
+  opacity: 0.25;
+}
+
+#payment .payment_methods > .woocommerce-PaymentMethod > label::before,
+#payment .payment_methods > .wc_payment_method > label::before {
+  font-family: "wpcplant-icon";
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\e937";
+  margin-right: 0.5407911001em;
+  transition: color, ease, 0.2s;
+  line-height: inherit;
+  vertical-align: middle;
+}
+#payment .payment_methods li.woocommerce-PaymentMethod > input[type=radio]:first-child, #payment .payment_methods li.wc_payment_method > input[type=radio]:first-child {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  -webkit-clip-path: inset(50%);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  word-wrap: normal !important;
+}
+#payment .payment_methods li.woocommerce-PaymentMethod > input[type=radio]:first-child:checked + label::before, #payment .payment_methods li.wc_payment_method > input[type=radio]:first-child:checked + label::before {
+  content: "\e92b";
+}
+
+.woocommerce-password-strength::after {
+  font-family: "wpcplant-icon";
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\e99a";
+  margin-left: 0.5407911001em;
+}
+.woocommerce-password-strength.strong::after {
+  content: "\e9e1";
+}
+.woocommerce-password-strength.good::after {
+  content: "\e99a";
+}
+
+.woocommerce-MyAccount-navigation ul li.is-active a::before {
+  opacity: 1;
+}
+.woocommerce-MyAccount-navigation ul li a::before {
+  font-family: "wpcplant-icon";
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\e96b";
+  line-height: 1.618;
+  margin-left: 0.5407911001em;
+  width: 1.41575em;
+  text-align: right;
+  float: right;
+  opacity: 0.25;
+}
+.woocommerce-MyAccount-navigation ul li a:hover::before {
+  opacity: 1;
+}
+.woocommerce-MyAccount-navigation ul li.woocommerce-MyAccount-navigation-link--dashboard a::before {
+  content: "\e946";
+}
+.woocommerce-MyAccount-navigation ul li.woocommerce-MyAccount-navigation-link--orders a::before {
+  content: "\e9d8";
+}
+.woocommerce-MyAccount-navigation ul li.woocommerce-MyAccount-navigation-link--downloads a::before {
+  content: "\e95b";
+}
+.woocommerce-MyAccount-navigation ul li.woocommerce-MyAccount-navigation-link--edit-address a::before {
+  content: "\e983";
+}
+.woocommerce-MyAccount-navigation ul li.woocommerce-MyAccount-navigation-link--payment-methods a::before {
+  content: "\e959";
+}
+.woocommerce-MyAccount-navigation ul li.woocommerce-MyAccount-navigation-link--edit-account a::before {
+  content: "\ea06";
+}
+.woocommerce-MyAccount-navigation ul li.woocommerce-MyAccount-navigation-link--customer-logout a::before {
+  content: "\e994";
+}
+.woocommerce-MyAccount-navigation ul li.woocommerce-MyAccount-navigation-link--subscriptions a::before {
+  content: "\e9c8";
+}
+
+.my_account_orders .button.view::after {
+  font-family: "wpcplant-icon";
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\e963";
+  margin-left: 0.5407911001em;
+}
+
+p.order-again .button::after {
+  font-family: "wpcplant-icon";
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\e9c8";
+  margin-left: 0.5407911001em;
+}
+
+.woocommerce-MyAccount-downloads .button::after {
+  font-family: "wpcplant-icon";
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\e95a";
+  margin-left: 0.5407911001em;
+}
+
+.demo_store::before {
+  font-family: "wpcplant-icon";
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\e902";
+  margin-right: 0.5407911001em;
+}
+
+.woocommerce-tabs ul.tabs li::after {
+  font-family: "wpcplant-icon";
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\e930";
+  font-size: 12px;
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: -1em;
+  transform: translateY(-50%);
+  opacity: 0;
+  transition: all, ease, 0.3s;
+}
+.woocommerce-tabs ul.tabs li.active::after {
+  opacity: 1;
+  right: 0;
+}
+
+#reviews .commentlist li p.meta .verified {
+  display: inline-block;
+  height: 1.41575em;
+  width: 1.41575em;
+  position: relative;
+  text-indent: -9999px;
+}
+#reviews .commentlist li p.meta .verified::before {
+  font-family: "wpcplant-icon";
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\e92b";
+  color: var(--success);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1.41575em;
+  height: 1.41575em;
+  text-indent: 0;
+  text-align: center;
+  line-height: 1.618em;
+}
+
+/**
+ * Composite Products
+ */
+.single-product div.product .component_selections .clear_component_options::before {
+  font-family: "wpcplant-icon";
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\e9c8";
+  margin-right: 0.5407911001em;
+}
+
+/**
+ * Mix and Match
+ */
+.cart .mnm_table_item .mnm_table_item_indent::before,
+.shop_table .mnm_table_item .mnm_table_item_indent::before {
+  font-family: "wpcplant-icon";
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\e935";
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
+  transform: rotate(90deg);
+  margin-right: 0.3819820591em;
+  opacity: 0.25;
+}
+
+/**
+ * Quick view
+ */
+.quick-view-button::before {
+  font-family: "wpcplant-icon";
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\e963";
+  margin-right: 0.6180469716em;
+}
+
+/**
+ * Ship multiple addresses
+ */
+.woocommerce-page .ship_address .gift-form label::after,
+.woocommerce-page .no_shipping_address .gift-form label::after {
+  font-family: "wpcplant-icon";
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\e974";
+  margin-left: 0.5407911001em;
+}
+.woocommerce-page .ship_address .modify-address-button::before,
+.woocommerce-page .no_shipping_address .modify-address-button::before {
+  font-family: "wpcplant-icon";
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\e960";
+  margin-right: 0.5407911001em;
+}
+.woocommerce-page .addresses + .addresses header.title a::before {
+  content: "\e9c1";
+}
+
+/**
+ * Product reviews pro
+ */
+.woocommerce .woocommerce-MyAccount-navigation li.woocommerce-MyAccount-navigation-link--contributions a::before,
+.woocommerce-page .woocommerce-MyAccount-navigation li.woocommerce-MyAccount-navigation-link--contributions a::before {
+  font-family: "wpcplant-icon";
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\e9e4";
+}
+
+/**
+ * Variation Swatches
+ */
+a#variations_clear::before {
+  font-family: "wpcplant-icon";
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\e9c8";
+  margin-right: 0.5407911001em;
+}
+
+/**
+ * Wishlists
+ */
+.wl-add-link::before {
+  font-family: "wpcplant-icon";
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\e980";
+  margin-right: 0.5407911001em;
+}
+
+.button.wl-create-new::before {
+  font-family: "wpcplant-icon";
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\e9c1";
+  margin-right: 0.5407911001em;
+}
+
+.site-header-cart .cart-contents::before {
+  font-family: "wpcplant-icon";
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\e9d8";
+  font-size: 20px;
+  vertical-align: middle;
+  margin-right: -7px;
+}
+
+.site-header-wishlist .header-wishlist::before {
+  font-family: "wpcplant-icon";
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\e980";
+  font-size: 20px;
+  vertical-align: middle;
+  margin-right: -7px;
+}
+
+@media (min-width: 992px) {
+  .main-navigation ul.menu > li.menu-item-has-children > a::after, .main-navigation ul.menu > li.page_item_has_children > a::after,
+.main-navigation ul.nav-menu > li.menu-item-has-children > a::after,
+.main-navigation ul.nav-menu > li.page_item_has_children > a::after {
+    font-family: "wpcplant-icon";
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: "\e92e";
+    margin-left: 1em;
+    vertical-align: middle;
+    line-height: inherit;
+  }
+
+  .main-navigation ul.menu ul li.menu-item-has-children > a::after, .main-navigation ul.menu ul li.page_item_has_children > a::after,
+.main-navigation ul.nav-menu ul li.menu-item-has-children > a::after,
+.main-navigation ul.nav-menu ul li.page_item_has_children > a::after {
+    font-family: "wpcplant-icon";
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: "\e930";
+    float: right;
+    line-height: 1.618;
+  }
+
+  .demo_store a.woocommerce-store-notice__dismiss-link::before {
+    font-family: "wpcplant-icon";
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: "\ea13";
+    margin-right: 0.3342343017em;
+  }
+
+  .addresses header.title a {
+    display: block;
+    width: 1em;
+    height: 1em;
+    text-indent: -9999px;
+    position: relative;
+    padding: 0.875em;
+    margin-top: 0.6180469716em;
+  }
+  .addresses header.title a::before {
+    font-family: "wpcplant-icon";
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: "\e960";
+    line-height: 1.618;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    text-indent: 0;
+  }
+
+  .woocommerce-tabs ul.tabs li::after {
+    content: "\e930";
+  }
+
+  /**
+   * Wishlists
+   */
+  #wl-wrapper .wl-tabs > li.active::after {
+    font-family: "wpcplant-icon";
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: "\e930";
+    display: block !important;
+    position: absolute;
+    top: 50%;
+    height: 1em;
+    width: 1em;
+    margin-top: -0.5em;
+  }
+}
+.single-product div.product .summary .cart .woosc-btn::before,
+.single-product div.product .summary .cart .woosq-btn::before,
+.single-product div.product .summary .cart .woosw-btn::before,
+li.product .woosc-btn::before,
+li.product .woosq-btn::before,
+li.product .woosw-btn::before {
+  font-family: "wpcplant-icon";
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: block !important;
+  margin: 0 !important;
+}
+.single-product div.product .summary .cart .woosc-btn::before,
+li.product .woosc-btn::before {
+  content: "\e91a";
+}
+.single-product div.product .summary .cart .woosq-btn::before,
+li.product .woosq-btn::before {
+  content: "\e963";
+}
+.single-product div.product .summary .cart .woosw-btn::before,
+li.product .woosw-btn::before {
+  content: "\e980";
+}
+.single-product div.product .summary .cart [class*=-adding],
+li.product [class*=-adding] {
+  position: relative;
+}
+.single-product div.product .summary .cart [class*=-adding]::after,
+li.product [class*=-adding]::after {
+  font-family: "wpcplant-icon";
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\e9c7" !important;
+  -webkit-animation: wpcplant-spin 0.75s linear infinite;
+          animation: wpcplant-spin 0.75s linear infinite;
+  height: 20px;
+  width: 20px;
+  line-height: 20px;
+  font-size: 14px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -10px;
+  margin-top: -10px;
+  display: block;
+}
+.single-product div.product .summary .cart [class*=-adding]:before,
+li.product [class*=-adding]:before {
+  opacity: 0;
+}
+
+.woocommerce-message::before, .woocommerce-message::after,
+.woocommerce-info::before,
+.woocommerce-info::after,
+.woocommerce-error::before,
+.woocommerce-error::after,
+.woocommerce-noreviews::before,
+.woocommerce-noreviews::after,
+p.no-comments::before,
+p.no-comments::after {
+  content: "";
+  display: table;
+}
+.woocommerce-message::after,
+.woocommerce-info::after,
+.woocommerce-error::after,
+.woocommerce-noreviews::after,
+p.no-comments::after {
+  clear: both;
+}
+.woocommerce-message::before,
+.woocommerce-info::before,
+.woocommerce-error::before,
+.woocommerce-noreviews::before,
+p.no-comments::before {
+  font-family: "wpcplant-icon";
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\e902";
+}
+
+.woocommerce-message::before {
+  content: "\e92b";
+}
+
+.entry-header .posted-on:before,
+.entry-header .post-author:before,
+.entry-header .post-categories:before,
+.entry-header .post-comments:before {
+  font-family: "wpcplant-icon";
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: var(--heading);
+  margin-right: 7px;
+}
+.entry-header .posted-on:before {
+  content: "\e939";
+}
+.entry-header .post-author:before {
+  content: "\ea06";
+}
+.entry-header .post-categories:before {
+  content: "\e971";
+}
+.entry-header .post-comments:before {
+  content: "\e99c";
+}
+
+.gridlist-toggle .grid:before {
+  font-family: "wpcplant-icon";
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\e97c";
+  line-height: inherit;
+}
+.gridlist-toggle .list:before {
+  font-family: "wpcplant-icon";
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\e990";
+  line-height: inherit;
+}

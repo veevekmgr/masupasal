@@ -1,0 +1,795 @@
+2021-10-19T02:49:35+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in C:\xampp\htdocs\afnomasupasal\wp-content\plugins\elementor\core\base\document.php:851
+Stack trace:
+#0 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#1 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(2317)
+#2 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#4 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\afnomasupasal\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\afnomasupasal\wp-cron.php(138): do_action_ref_array('wp_image_proces...', Array)
+#9 {main}
+  thrown in C:\xampp\htdocs\afnomasupasal\wp-content\plugins\elementor\core\base\document.php on line 851
+
+2021-10-19T02:54:54+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in C:\xampp\htdocs\afnomasupasal\wp-content\plugins\elementor\core\base\document.php:851
+Stack trace:
+#0 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#1 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(2317)
+#2 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#4 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\afnomasupasal\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\afnomasupasal\wp-cron.php(138): do_action_ref_array('wp_image_proces...', Array)
+#9 {main}
+  thrown in C:\xampp\htdocs\afnomasupasal\wp-content\plugins\elementor\core\base\document.php on line 851
+
+2021-10-19T02:59:16+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in C:\xampp\htdocs\afnomasupasal\wp-content\plugins\elementor\core\base\document.php:851
+Stack trace:
+#0 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#1 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(2317)
+#2 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#4 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\afnomasupasal\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\afnomasupasal\wp-cron.php(138): do_action_ref_array('wp_image_proces...', Array)
+#9 {main}
+  thrown in C:\xampp\htdocs\afnomasupasal\wp-content\plugins\elementor\core\base\document.php on line 851
+
+2021-10-19T03:04:12+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in C:\xampp\htdocs\afnomasupasal\wp-content\plugins\elementor\core\base\document.php:851
+Stack trace:
+#0 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#1 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(2317)
+#2 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#4 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\afnomasupasal\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\afnomasupasal\wp-cron.php(138): do_action_ref_array('wp_image_proces...', Array)
+#9 {main}
+  thrown in C:\xampp\htdocs\afnomasupasal\wp-content\plugins\elementor\core\base\document.php on line 851
+
+2021-10-19T03:09:51+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in C:\xampp\htdocs\afnomasupasal\wp-content\plugins\elementor\core\base\document.php:851
+Stack trace:
+#0 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#1 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(2317)
+#2 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#4 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\afnomasupasal\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\afnomasupasal\wp-cron.php(138): do_action_ref_array('wp_image_proces...', Array)
+#9 {main}
+  thrown in C:\xampp\htdocs\afnomasupasal\wp-content\plugins\elementor\core\base\document.php on line 851
+
+2021-10-19T03:14:21+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in C:\xampp\htdocs\afnomasupasal\wp-content\plugins\elementor\core\base\document.php:851
+Stack trace:
+#0 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#1 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(2317)
+#2 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#4 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\afnomasupasal\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\afnomasupasal\wp-cron.php(138): do_action_ref_array('wp_image_proces...', Array)
+#9 {main}
+  thrown in C:\xampp\htdocs\afnomasupasal\wp-content\plugins\elementor\core\base\document.php on line 851
+
+2021-10-19T03:19:12+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in C:\xampp\htdocs\afnomasupasal\wp-content\plugins\elementor\core\base\document.php:851
+Stack trace:
+#0 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#1 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(2317)
+#2 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#4 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\afnomasupasal\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\afnomasupasal\wp-cron.php(138): do_action_ref_array('wp_image_proces...', Array)
+#9 {main}
+  thrown in C:\xampp\htdocs\afnomasupasal\wp-content\plugins\elementor\core\base\document.php on line 851
+
+2021-10-19T03:25:01+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in C:\xampp\htdocs\afnomasupasal\wp-content\plugins\elementor\core\base\document.php:851
+Stack trace:
+#0 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#1 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(2317)
+#2 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#4 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\afnomasupasal\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\afnomasupasal\wp-cron.php(138): do_action_ref_array('wp_image_proces...', Array)
+#9 {main}
+  thrown in C:\xampp\htdocs\afnomasupasal\wp-content\plugins\elementor\core\base\document.php on line 851
+
+2021-10-19T03:28:11+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($function) must be a valid callback, non-static method M_Shop_Admin_Settings::m_shop_activeplugin() cannot be called statically in C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-hook.php:303
+Stack trace:
+#0 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\afnomasupasal\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\afnomasupasal\wp-admin\admin-ajax.php(187): do_action('wp_ajax_m_shop_...')
+#3 {main}
+  thrown in C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-hook.php on line 303
+
+2021-10-19T03:30:22+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in C:\xampp\htdocs\afnomasupasal\wp-content\plugins\elementor\core\base\document.php:851
+Stack trace:
+#0 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#1 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(2317)
+#2 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#4 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\afnomasupasal\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\afnomasupasal\wp-cron.php(138): do_action_ref_array('wp_image_proces...', Array)
+#9 {main}
+  thrown in C:\xampp\htdocs\afnomasupasal\wp-content\plugins\elementor\core\base\document.php on line 851
+
+2021-10-19T03:34:14+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in C:\xampp\htdocs\afnomasupasal\wp-content\plugins\elementor\core\base\document.php:851
+Stack trace:
+#0 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#1 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(2317)
+#2 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#4 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\afnomasupasal\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\afnomasupasal\wp-cron.php(138): do_action_ref_array('wp_image_proces...', Array)
+#9 {main}
+  thrown in C:\xampp\htdocs\afnomasupasal\wp-content\plugins\elementor\core\base\document.php on line 851
+
+2021-10-19T03:39:24+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in C:\xampp\htdocs\afnomasupasal\wp-content\plugins\elementor\core\base\document.php:851
+Stack trace:
+#0 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#1 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(2317)
+#2 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#4 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\afnomasupasal\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\afnomasupasal\wp-cron.php(138): do_action_ref_array('wp_image_proces...', Array)
+#9 {main}
+  thrown in C:\xampp\htdocs\afnomasupasal\wp-content\plugins\elementor\core\base\document.php on line 851
+
+2021-10-19T03:44:40+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in C:\xampp\htdocs\afnomasupasal\wp-content\plugins\elementor\core\base\document.php:851
+Stack trace:
+#0 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#1 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(2317)
+#2 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#4 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\afnomasupasal\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\afnomasupasal\wp-cron.php(138): do_action_ref_array('wp_image_proces...', Array)
+#9 {main}
+  thrown in C:\xampp\htdocs\afnomasupasal\wp-content\plugins\elementor\core\base\document.php on line 851
+
+2021-10-19T03:49:27+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in C:\xampp\htdocs\afnomasupasal\wp-content\plugins\elementor\core\base\document.php:851
+Stack trace:
+#0 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#1 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(2317)
+#2 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#4 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\afnomasupasal\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\afnomasupasal\wp-cron.php(138): do_action_ref_array('wp_image_proces...', Array)
+#9 {main}
+  thrown in C:\xampp\htdocs\afnomasupasal\wp-content\plugins\elementor\core\base\document.php on line 851
+
+2021-10-19T03:54:31+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in C:\xampp\htdocs\afnomasupasal\wp-content\plugins\elementor\core\base\document.php:851
+Stack trace:
+#0 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#1 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(2317)
+#2 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#4 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\afnomasupasal\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\afnomasupasal\wp-cron.php(138): do_action_ref_array('wp_image_proces...', Array)
+#9 {main}
+  thrown in C:\xampp\htdocs\afnomasupasal\wp-content\plugins\elementor\core\base\document.php on line 851
+
+2021-10-19T04:00:10+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in C:\xampp\htdocs\afnomasupasal\wp-content\plugins\elementor\core\base\document.php:851
+Stack trace:
+#0 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#1 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(2317)
+#2 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#4 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\afnomasupasal\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\afnomasupasal\wp-cron.php(138): do_action_ref_array('wp_image_proces...', Array)
+#9 {main}
+  thrown in C:\xampp\htdocs\afnomasupasal\wp-content\plugins\elementor\core\base\document.php on line 851
+
+2021-10-19T04:04:13+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in C:\xampp\htdocs\afnomasupasal\wp-content\plugins\elementor\core\base\document.php:851
+Stack trace:
+#0 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#1 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(2317)
+#2 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#4 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\afnomasupasal\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\afnomasupasal\wp-cron.php(138): do_action_ref_array('wp_image_proces...', Array)
+#9 {main}
+  thrown in C:\xampp\htdocs\afnomasupasal\wp-content\plugins\elementor\core\base\document.php on line 851
+
+2021-10-19T04:09:31+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in C:\xampp\htdocs\afnomasupasal\wp-content\plugins\elementor\core\base\document.php:851
+Stack trace:
+#0 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#1 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(2317)
+#2 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#4 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\afnomasupasal\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\afnomasupasal\wp-cron.php(138): do_action_ref_array('wp_image_proces...', Array)
+#9 {main}
+  thrown in C:\xampp\htdocs\afnomasupasal\wp-content\plugins\elementor\core\base\document.php on line 851
+
+2021-10-19T04:14:29+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in C:\xampp\htdocs\afnomasupasal\wp-content\plugins\elementor\core\base\document.php:851
+Stack trace:
+#0 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#1 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(2317)
+#2 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#4 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\afnomasupasal\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\afnomasupasal\wp-cron.php(138): do_action_ref_array('wp_image_proces...', Array)
+#9 {main}
+  thrown in C:\xampp\htdocs\afnomasupasal\wp-content\plugins\elementor\core\base\document.php on line 851
+
+2021-10-19T04:19:15+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in C:\xampp\htdocs\afnomasupasal\wp-content\plugins\elementor\core\base\document.php:851
+Stack trace:
+#0 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#1 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(2317)
+#2 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#4 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\afnomasupasal\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\afnomasupasal\wp-cron.php(138): do_action_ref_array('wp_image_proces...', Array)
+#9 {main}
+  thrown in C:\xampp\htdocs\afnomasupasal\wp-content\plugins\elementor\core\base\document.php on line 851
+
+2021-10-19T04:24:12+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in C:\xampp\htdocs\afnomasupasal\wp-content\plugins\elementor\core\base\document.php:851
+Stack trace:
+#0 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#1 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(2317)
+#2 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#4 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\afnomasupasal\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\afnomasupasal\wp-cron.php(138): do_action_ref_array('wp_image_proces...', Array)
+#9 {main}
+  thrown in C:\xampp\htdocs\afnomasupasal\wp-content\plugins\elementor\core\base\document.php on line 851
+
+2021-10-19T04:29:38+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in C:\xampp\htdocs\afnomasupasal\wp-content\plugins\elementor\core\base\document.php:851
+Stack trace:
+#0 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#1 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(2317)
+#2 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#4 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\afnomasupasal\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\afnomasupasal\wp-cron.php(138): do_action_ref_array('wp_image_proces...', Array)
+#9 {main}
+  thrown in C:\xampp\htdocs\afnomasupasal\wp-content\plugins\elementor\core\base\document.php on line 851
+
+2021-10-19T04:34:41+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in C:\xampp\htdocs\afnomasupasal\wp-content\plugins\elementor\core\base\document.php:851
+Stack trace:
+#0 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#1 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(2317)
+#2 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#4 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\afnomasupasal\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\afnomasupasal\wp-cron.php(138): do_action_ref_array('wp_image_proces...', Array)
+#9 {main}
+  thrown in C:\xampp\htdocs\afnomasupasal\wp-content\plugins\elementor\core\base\document.php on line 851
+
+2021-10-19T04:39:19+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in C:\xampp\htdocs\afnomasupasal\wp-content\plugins\elementor\core\base\document.php:851
+Stack trace:
+#0 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#1 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(2317)
+#2 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#4 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\afnomasupasal\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\afnomasupasal\wp-cron.php(138): do_action_ref_array('wp_image_proces...', Array)
+#9 {main}
+  thrown in C:\xampp\htdocs\afnomasupasal\wp-content\plugins\elementor\core\base\document.php on line 851
+
+2021-10-19T04:45:21+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in C:\xampp\htdocs\afnomasupasal\wp-content\plugins\elementor\core\base\document.php:851
+Stack trace:
+#0 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#1 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(2317)
+#2 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#4 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\afnomasupasal\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\afnomasupasal\wp-cron.php(138): do_action_ref_array('wp_image_proces...', Array)
+#9 {main}
+  thrown in C:\xampp\htdocs\afnomasupasal\wp-content\plugins\elementor\core\base\document.php on line 851
+
+2021-10-19T04:49:22+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in C:\xampp\htdocs\afnomasupasal\wp-content\plugins\elementor\core\base\document.php:851
+Stack trace:
+#0 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#1 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(2317)
+#2 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#4 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\afnomasupasal\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\afnomasupasal\wp-cron.php(138): do_action_ref_array('wp_image_proces...', Array)
+#9 {main}
+  thrown in C:\xampp\htdocs\afnomasupasal\wp-content\plugins\elementor\core\base\document.php on line 851
+
+2021-10-19T04:54:26+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in C:\xampp\htdocs\afnomasupasal\wp-content\plugins\elementor\core\base\document.php:851
+Stack trace:
+#0 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#1 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(2317)
+#2 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#4 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\afnomasupasal\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\afnomasupasal\wp-cron.php(138): do_action_ref_array('wp_image_proces...', Array)
+#9 {main}
+  thrown in C:\xampp\htdocs\afnomasupasal\wp-content\plugins\elementor\core\base\document.php on line 851
+
+2021-10-19T04:59:23+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in C:\xampp\htdocs\afnomasupasal\wp-content\plugins\elementor\core\base\document.php:851
+Stack trace:
+#0 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#1 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(2317)
+#2 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#4 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\afnomasupasal\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\afnomasupasal\wp-cron.php(138): do_action_ref_array('wp_image_proces...', Array)
+#9 {main}
+  thrown in C:\xampp\htdocs\afnomasupasal\wp-content\plugins\elementor\core\base\document.php on line 851
+
+2021-10-19T05:04:29+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in C:\xampp\htdocs\afnomasupasal\wp-content\plugins\elementor\core\base\document.php:851
+Stack trace:
+#0 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#1 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(2317)
+#2 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#4 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\afnomasupasal\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\afnomasupasal\wp-cron.php(138): do_action_ref_array('wp_image_proces...', Array)
+#9 {main}
+  thrown in C:\xampp\htdocs\afnomasupasal\wp-content\plugins\elementor\core\base\document.php on line 851
+
+2021-10-19T05:09:52+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in C:\xampp\htdocs\afnomasupasal\wp-content\plugins\elementor\core\base\document.php:851
+Stack trace:
+#0 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#1 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(2317)
+#2 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#4 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\afnomasupasal\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\afnomasupasal\wp-cron.php(138): do_action_ref_array('wp_image_proces...', Array)
+#9 {main}
+  thrown in C:\xampp\htdocs\afnomasupasal\wp-content\plugins\elementor\core\base\document.php on line 851
+
+2021-10-19T05:14:15+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in C:\xampp\htdocs\afnomasupasal\wp-content\plugins\elementor\core\base\document.php:851
+Stack trace:
+#0 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#1 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(2317)
+#2 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#4 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\afnomasupasal\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\afnomasupasal\wp-cron.php(138): do_action_ref_array('wp_image_proces...', Array)
+#9 {main}
+  thrown in C:\xampp\htdocs\afnomasupasal\wp-content\plugins\elementor\core\base\document.php on line 851
+
+2021-10-19T05:19:15+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in C:\xampp\htdocs\afnomasupasal\wp-content\plugins\elementor\core\base\document.php:851
+Stack trace:
+#0 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#1 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(2317)
+#2 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#4 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\afnomasupasal\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\afnomasupasal\wp-cron.php(138): do_action_ref_array('wp_image_proces...', Array)
+#9 {main}
+  thrown in C:\xampp\htdocs\afnomasupasal\wp-content\plugins\elementor\core\base\document.php on line 851
+
+2021-10-19T05:25:21+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in C:\xampp\htdocs\afnomasupasal\wp-content\plugins\elementor\core\base\document.php:851
+Stack trace:
+#0 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#1 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(2317)
+#2 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#4 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\afnomasupasal\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\afnomasupasal\wp-cron.php(138): do_action_ref_array('wp_image_proces...', Array)
+#9 {main}
+  thrown in C:\xampp\htdocs\afnomasupasal\wp-content\plugins\elementor\core\base\document.php on line 851
+
+2021-10-19T05:29:38+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in C:\xampp\htdocs\afnomasupasal\wp-content\plugins\elementor\core\base\document.php:851
+Stack trace:
+#0 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#1 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(2317)
+#2 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#4 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\afnomasupasal\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\afnomasupasal\wp-cron.php(138): do_action_ref_array('wp_image_proces...', Array)
+#9 {main}
+  thrown in C:\xampp\htdocs\afnomasupasal\wp-content\plugins\elementor\core\base\document.php on line 851
+
+2021-10-19T05:35:20+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in C:\xampp\htdocs\afnomasupasal\wp-content\plugins\elementor\core\base\document.php:851
+Stack trace:
+#0 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#1 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(2317)
+#2 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#4 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\afnomasupasal\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\afnomasupasal\wp-cron.php(138): do_action_ref_array('wp_image_proces...', Array)
+#9 {main}
+  thrown in C:\xampp\htdocs\afnomasupasal\wp-content\plugins\elementor\core\base\document.php on line 851
+
+2021-10-19T05:39:40+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in C:\xampp\htdocs\afnomasupasal\wp-content\plugins\elementor\core\base\document.php:851
+Stack trace:
+#0 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#1 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(2317)
+#2 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#4 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\afnomasupasal\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\afnomasupasal\wp-cron.php(138): do_action_ref_array('wp_image_proces...', Array)
+#9 {main}
+  thrown in C:\xampp\htdocs\afnomasupasal\wp-content\plugins\elementor\core\base\document.php on line 851
+
+2021-10-19T05:44:16+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in C:\xampp\htdocs\afnomasupasal\wp-content\plugins\elementor\core\base\document.php:851
+Stack trace:
+#0 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#1 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(2317)
+#2 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#4 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\afnomasupasal\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\afnomasupasal\wp-cron.php(138): do_action_ref_array('wp_image_proces...', Array)
+#9 {main}
+  thrown in C:\xampp\htdocs\afnomasupasal\wp-content\plugins\elementor\core\base\document.php on line 851
+
+2021-10-19T05:49:21+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in C:\xampp\htdocs\afnomasupasal\wp-content\plugins\elementor\core\base\document.php:851
+Stack trace:
+#0 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#1 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(2317)
+#2 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#4 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\afnomasupasal\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\afnomasupasal\wp-cron.php(138): do_action_ref_array('wp_image_proces...', Array)
+#9 {main}
+  thrown in C:\xampp\htdocs\afnomasupasal\wp-content\plugins\elementor\core\base\document.php on line 851
+
+2021-10-19T05:53:05+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in C:\xampp\htdocs\afnomasupasal\wp-content\plugins\elementor\core\base\document.php:851
+Stack trace:
+#0 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#1 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(2317)
+#2 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#4 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(175): WP_Background_Process->handle()
+#5 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-hook.php(303): WP_Background_Process->maybe_handle('')
+#6 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\afnomasupasal\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\afnomasupasal\wp-admin\admin-ajax.php(187): do_action('wp_ajax_wp_imag...')
+#9 {main}
+  thrown in C:\xampp\htdocs\afnomasupasal\wp-content\plugins\elementor\core\base\document.php on line 851
+
+2021-10-19T05:54:36+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in C:\xampp\htdocs\afnomasupasal\wp-content\plugins\elementor\core\base\document.php:851
+Stack trace:
+#0 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#1 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(2317)
+#2 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#4 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\afnomasupasal\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\afnomasupasal\wp-cron.php(138): do_action_ref_array('wp_image_proces...', Array)
+#9 {main}
+  thrown in C:\xampp\htdocs\afnomasupasal\wp-content\plugins\elementor\core\base\document.php on line 851
+
+2021-10-19T05:58:19+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in C:\xampp\htdocs\afnomasupasal\wp-content\plugins\elementor\core\base\document.php:851
+Stack trace:
+#0 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#1 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(2317)
+#2 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#4 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(175): WP_Background_Process->handle()
+#5 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-hook.php(303): WP_Background_Process->maybe_handle('')
+#6 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\afnomasupasal\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\afnomasupasal\wp-admin\admin-ajax.php(187): do_action('wp_ajax_wp_imag...')
+#9 {main}
+  thrown in C:\xampp\htdocs\afnomasupasal\wp-content\plugins\elementor\core\base\document.php on line 851
+
+2021-10-19T06:01:03+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in C:\xampp\htdocs\afnomasupasal\wp-content\plugins\elementor\core\base\document.php:851
+Stack trace:
+#0 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#1 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(2317)
+#2 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#4 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\afnomasupasal\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\afnomasupasal\wp-cron.php(138): do_action_ref_array('wp_image_proces...', Array)
+#9 {main}
+  thrown in C:\xampp\htdocs\afnomasupasal\wp-content\plugins\elementor\core\base\document.php on line 851
+
+2021-10-19T06:04:30+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in C:\xampp\htdocs\afnomasupasal\wp-content\plugins\elementor\core\base\document.php:851
+Stack trace:
+#0 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#1 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(2317)
+#2 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#4 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\afnomasupasal\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\afnomasupasal\wp-cron.php(138): do_action_ref_array('wp_image_proces...', Array)
+#9 {main}
+  thrown in C:\xampp\htdocs\afnomasupasal\wp-content\plugins\elementor\core\base\document.php on line 851
+
+2021-10-19T06:09:26+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\afnomasupasal\wp-includes\wp-db.php on line 2056
+
+2021-10-19T06:23:51+00:00 CRITICAL Uncaught TypeError: fclose(): Argument #1 ($stream) must be of type resource, bool given in C:\xampp\htdocs\afnomasupasal\wp-content\plugins\cartflows\classes\logger\class-cartflows-log-handler-file.php:147
+Stack trace:
+#0 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\cartflows\classes\logger\class-cartflows-log-handler-file.php(147): fclose(false)
+#1 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\cartflows\classes\logger\class-cartflows-log-handler-file.php(207): Cartflows_Log_Handler_File->open('cartflows')
+#2 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\cartflows\classes\logger\class-cartflows-log-handler-file.php(99): Cartflows_Log_Handler_File->add('2021-10-19T06:2...', 'cartflows')
+#3 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\cartflows\classes\logger\class-cartflows-wc-logger.php(144): Cartflows_Log_Handler_File->handle(1634624631, 'info', 'Start-Cartflows...', Array)
+#4 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\cartflows\classes\class-cartflows-logger.php(80): Cartflows_WC_Logger->log('info', 'Start-Cartflows...', Array)
+#5 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\cartflows\classes\class-cartflows-frontend.php(61): Cartflows_Logger->log('Start-Cartflows...')
+#6 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-hook.php(303): Cartflows_Frontend->redirect_to_thankyou_page('http://localhos...', Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#7 C:\xampp\htdocs\afnomasupasal\wp-includes\plugin.php(189): WP_Hook->apply_filters('http://localhos...', Array)
+#8 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\woocommerce\includes\class-wc-order.php(1608): apply_filters('woocommerce_get...', 'http://localhos...', Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#9 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-payment-gateway.php(226): WC_Order->get_checkout_order_received_url()
+#10 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\woocommerce\includes\gateways\bacs\class-wc-gateway-bacs.php(375): WC_Payment_Gateway->get_return_url(Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#11 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(980): WC_Gateway_BACS->process_payment(3235)
+#12 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1195): WC_Checkout->process_order_payment(3235, 'bacs')
+#13 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(466): WC_Checkout->process_checkout()
+#14 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-hook.php(303): WC_AJAX::checkout('')
+#15 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#16 C:\xampp\htdocs\afnomasupasal\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#17 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(90): do_action('wc_ajax_checkou...')
+#18 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-hook.php(303): WC_AJAX::do_wc_ajax('')
+#19 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(false, Array)
+#20 C:\xampp\htdocs\afnomasupasal\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#21 C:\xampp\htdocs\afnomasupasal\wp-includes\template-loader.php(13): do_action('template_redire...')
+#22 C:\xampp\htdocs\afnomasupasal\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#23 C:\xampp\htdocs\afnomasupasal\index.php(17): require('C:\\xampp\\htdocs...')
+#24 {main}
+  thrown in C:\xampp\htdocs\afnomasupasal\wp-content\plugins\cartflows\classes\logger\class-cartflows-log-handler-file.php on line 147
+
+2021-10-19T06:24:27+00:00 CRITICAL Uncaught Error: Call to undefined method WP_Error::get_data() in C:\xampp\htdocs\afnomasupasal\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\RestApi.php:64
+Stack trace:
+#0 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\BlockTypes\AbstractBlock.php(359): Automattic\WooCommerce\Blocks\RestApi->get_routes_from_namespace('wc/store')
+#1 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\BlockTypes\AbstractBlock.php(297): Automattic\WooCommerce\Blocks\BlockTypes\AbstractBlock->enqueue_data(Array)
+#2 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\BlockTypes\AbstractBlock.php(85): Automattic\WooCommerce\Blocks\BlockTypes\AbstractBlock->enqueue_assets(Array)
+#3 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-block.php(221): Automattic\WooCommerce\Blocks\BlockTypes\AbstractBlock->render_callback(Array, '', Object(WP_Block))
+#4 C:\xampp\htdocs\afnomasupasal\wp-includes\blocks.php(868): WP_Block->render()
+#5 C:\xampp\htdocs\afnomasupasal\wp-includes\blocks.php(906): render_block(Array)
+#6 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-hook.php(305): do_blocks('<!-- wp:woocomm...')
+#7 C:\xampp\htdocs\afnomasupasal\wp-includes\plugin.php(189): WP_Hook->apply_filters('<!-- wp:woocomm...', Array)
+#8 C:\xampp\htdocs\afnomasupasal\wp-includes\widgets\class-wp-widget-block.php(81): apply_filters('widget_block_co...', '<!-- wp:woocomm...', Array, Object(WP_Widget_Block))
+#9 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-widget.php(393): WP_Widget_Block->widget(Array, Array)
+#10 C:\xampp\htdocs\afnomasupasal\wp-includes\widgets.php(831): WP_Widget->display_callback(Array, Array)
+#11 C:\xampp\htdocs\afnomasupasal\wp-content\themes\wpcplant\sidebar.php(14): dynamic_sidebar('sidebar-1')
+#12 C:\xampp\htdocs\afnomasupasal\wp-includes\template.php(770): require_once('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\afnomasupasal\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', true, Array)
+#14 C:\xampp\htdocs\afnomasupasal\wp-includes\general-template.php(136): locate_template(Array, true, true, Array)
+#15 C:\xampp\htdocs\afnomasupasal\wp-content\themes\wpcplant\inc\wpcplant-template-functions.php(653): get_sidebar()
+#16 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-hook.php(303): wpcplant_get_sidebar('')
+#17 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#18 C:\xampp\htdocs\afnomasupasal\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#19 C:\xampp\htdocs\afnomasupasal\wp-content\themes\wpcplant\page.php(40): do_action('wpcplant_sideba...')
+#20 C:\xampp\htdocs\afnomasupasal\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#21 C:\xampp\htdocs\afnomasupasal\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#22 C:\xampp\htdocs\afnomasupasal\index.php(17): require('C:\\xampp\\htdocs...')
+#23 {main}
+  thrown in C:\xampp\htdocs\afnomasupasal\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\RestApi.php on line 64
+
+2021-10-19T06:27:07+00:00 CRITICAL Uncaught Error: Failed opening required 'C:\xampp\htdocs\afnomasupasal/wp-content/themes/astra/inc/editor.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\afnomasupasal\wp-content\themes\botiga\functions.php:275
+Stack trace:
+#0 C:\xampp\htdocs\afnomasupasal\wp-settings.php(546): include()
+#1 C:\xampp\htdocs\afnomasupasal\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\afnomasupasal\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\afnomasupasal\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\afnomasupasal\wp-content\themes\botiga\functions.php on line 275
+
+2021-10-19T06:32:09+00:00 CRITICAL Uncaught TypeError: call_user_func(): Argument #1 ($function) must be a valid callback, non-static method Astra_Builder_Header::header_woo_cart() cannot be called statically in C:\xampp\htdocs\afnomasupasal\wp-includes\customize\class-wp-customize-partial.php:221
+Stack trace:
+#0 C:\xampp\htdocs\afnomasupasal\wp-includes\customize\class-wp-customize-selective-refresh.php(371): WP_Customize_Partial->render(Array)
+#1 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-hook.php(303): WP_Customize_Selective_Refresh->handle_render_partials_request('')
+#2 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\afnomasupasal\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\afnomasupasal\wp-includes\template-loader.php(13): do_action('template_redire...')
+#5 C:\xampp\htdocs\afnomasupasal\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\afnomasupasal\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\afnomasupasal\wp-includes\customize\class-wp-customize-partial.php on line 221
+
+2021-10-19T06:32:09+00:00 CRITICAL Uncaught TypeError: call_user_func(): Argument #1 ($function) must be a valid callback, non-static method Astra_Builder_Header::header_woo_cart() cannot be called statically in C:\xampp\htdocs\afnomasupasal\wp-includes\customize\class-wp-customize-partial.php:221
+Stack trace:
+#0 C:\xampp\htdocs\afnomasupasal\wp-includes\customize\class-wp-customize-selective-refresh.php(371): WP_Customize_Partial->render(Array)
+#1 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-hook.php(303): WP_Customize_Selective_Refresh->handle_render_partials_request('')
+#2 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\afnomasupasal\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\afnomasupasal\wp-includes\template-loader.php(13): do_action('template_redire...')
+#5 C:\xampp\htdocs\afnomasupasal\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\afnomasupasal\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\afnomasupasal\wp-includes\customize\class-wp-customize-partial.php on line 221
+
+2021-10-19T06:32:16+00:00 CRITICAL Uncaught TypeError: call_user_func(): Argument #1 ($function) must be a valid callback, non-static method Astra_Builder_Header::header_woo_cart() cannot be called statically in C:\xampp\htdocs\afnomasupasal\wp-includes\customize\class-wp-customize-partial.php:221
+Stack trace:
+#0 C:\xampp\htdocs\afnomasupasal\wp-includes\customize\class-wp-customize-selective-refresh.php(371): WP_Customize_Partial->render(Array)
+#1 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-hook.php(303): WP_Customize_Selective_Refresh->handle_render_partials_request('')
+#2 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\afnomasupasal\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\afnomasupasal\wp-includes\template-loader.php(13): do_action('template_redire...')
+#5 C:\xampp\htdocs\afnomasupasal\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\afnomasupasal\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\afnomasupasal\wp-includes\customize\class-wp-customize-partial.php on line 221
+
+2021-10-19T06:32:17+00:00 CRITICAL Uncaught TypeError: call_user_func(): Argument #1 ($function) must be a valid callback, non-static method Astra_Builder_Header::header_woo_cart() cannot be called statically in C:\xampp\htdocs\afnomasupasal\wp-includes\customize\class-wp-customize-partial.php:221
+Stack trace:
+#0 C:\xampp\htdocs\afnomasupasal\wp-includes\customize\class-wp-customize-selective-refresh.php(371): WP_Customize_Partial->render(Array)
+#1 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-hook.php(303): WP_Customize_Selective_Refresh->handle_render_partials_request('')
+#2 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\afnomasupasal\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\afnomasupasal\wp-includes\template-loader.php(13): do_action('template_redire...')
+#5 C:\xampp\htdocs\afnomasupasal\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\afnomasupasal\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\afnomasupasal\wp-includes\customize\class-wp-customize-partial.php on line 221
+
+2021-10-19T06:32:18+00:00 CRITICAL Uncaught TypeError: call_user_func(): Argument #1 ($function) must be a valid callback, non-static method Astra_Builder_Header::header_woo_cart() cannot be called statically in C:\xampp\htdocs\afnomasupasal\wp-includes\customize\class-wp-customize-partial.php:221
+Stack trace:
+#0 C:\xampp\htdocs\afnomasupasal\wp-includes\customize\class-wp-customize-selective-refresh.php(371): WP_Customize_Partial->render(Array)
+#1 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-hook.php(303): WP_Customize_Selective_Refresh->handle_render_partials_request('')
+#2 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\afnomasupasal\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\afnomasupasal\wp-includes\template-loader.php(13): do_action('template_redire...')
+#5 C:\xampp\htdocs\afnomasupasal\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\afnomasupasal\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\afnomasupasal\wp-includes\customize\class-wp-customize-partial.php on line 221
+
+2021-10-19T06:32:19+00:00 CRITICAL Uncaught TypeError: call_user_func(): Argument #1 ($function) must be a valid callback, non-static method Astra_Builder_Header::header_woo_cart() cannot be called statically in C:\xampp\htdocs\afnomasupasal\wp-includes\customize\class-wp-customize-partial.php:221
+Stack trace:
+#0 C:\xampp\htdocs\afnomasupasal\wp-includes\customize\class-wp-customize-selective-refresh.php(371): WP_Customize_Partial->render(Array)
+#1 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-hook.php(303): WP_Customize_Selective_Refresh->handle_render_partials_request('')
+#2 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\afnomasupasal\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\afnomasupasal\wp-includes\template-loader.php(13): do_action('template_redire...')
+#5 C:\xampp\htdocs\afnomasupasal\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\afnomasupasal\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\afnomasupasal\wp-includes\customize\class-wp-customize-partial.php on line 221
+
+2021-10-19T06:38:19+00:00 CRITICAL Uncaught TypeError: call_user_func(): Argument #1 ($function) must be a valid callback, non-static method Astra_Builder_Header::header_woo_cart() cannot be called statically in C:\xampp\htdocs\afnomasupasal\wp-includes\customize\class-wp-customize-partial.php:221
+Stack trace:
+#0 C:\xampp\htdocs\afnomasupasal\wp-includes\customize\class-wp-customize-selective-refresh.php(371): WP_Customize_Partial->render(Array)
+#1 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-hook.php(303): WP_Customize_Selective_Refresh->handle_render_partials_request('')
+#2 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\afnomasupasal\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\afnomasupasal\wp-includes\template-loader.php(13): do_action('template_redire...')
+#5 C:\xampp\htdocs\afnomasupasal\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\afnomasupasal\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\afnomasupasal\wp-includes\customize\class-wp-customize-partial.php on line 221
+
+2021-10-19T06:39:12+00:00 CRITICAL Uncaught TypeError: call_user_func(): Argument #1 ($function) must be a valid callback, non-static method Astra_Builder_Header::header_woo_cart() cannot be called statically in C:\xampp\htdocs\afnomasupasal\wp-includes\customize\class-wp-customize-partial.php:221
+Stack trace:
+#0 C:\xampp\htdocs\afnomasupasal\wp-includes\customize\class-wp-customize-selective-refresh.php(371): WP_Customize_Partial->render(Array)
+#1 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-hook.php(303): WP_Customize_Selective_Refresh->handle_render_partials_request('')
+#2 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\afnomasupasal\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\afnomasupasal\wp-includes\template-loader.php(13): do_action('template_redire...')
+#5 C:\xampp\htdocs\afnomasupasal\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\afnomasupasal\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\afnomasupasal\wp-includes\customize\class-wp-customize-partial.php on line 221
+
+2021-10-19T06:39:16+00:00 CRITICAL Uncaught TypeError: call_user_func(): Argument #1 ($function) must be a valid callback, non-static method Astra_Builder_Header::header_woo_cart() cannot be called statically in C:\xampp\htdocs\afnomasupasal\wp-includes\customize\class-wp-customize-partial.php:221
+Stack trace:
+#0 C:\xampp\htdocs\afnomasupasal\wp-includes\customize\class-wp-customize-selective-refresh.php(371): WP_Customize_Partial->render(Array)
+#1 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-hook.php(303): WP_Customize_Selective_Refresh->handle_render_partials_request('')
+#2 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\afnomasupasal\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\afnomasupasal\wp-includes\template-loader.php(13): do_action('template_redire...')
+#5 C:\xampp\htdocs\afnomasupasal\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\afnomasupasal\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\afnomasupasal\wp-includes\customize\class-wp-customize-partial.php on line 221
+
+2021-10-19T07:47:47+00:00 CRITICAL Uncaught Exception: WPGMZA\Marker ID '1' not found in C:\xampp\htdocs\afnomasupasal\wp-content\plugins\wp-google-maps\includes\class.crud.php:413
+Stack trace:
+#0 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\wp-google-maps\includes\class.crud.php(84): WPGMZA\Crud->read('single-read')
+#1 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\wp-google-maps\includes\class.marker.php(29): WPGMZA\Crud->__construct('mp_wpgmza', '1', 'single-read')
+#2 [internal function]: WPGMZA\Marker->__construct('1')
+#3 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\wp-google-maps\includes\class.factory.php(57): ReflectionClass->newInstanceArgs(Array)
+#4 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\wp-google-maps\includes\class.rest-api.php(869): WPGMZA\Factory::createInstance('1')
+#5 C:\xampp\htdocs\afnomasupasal\wp-content\plugins\wp-google-maps\includes\class.rest-api.php(147): WPGMZA\RestAPI->markers(Array)
+#6 C:\xampp\htdocs\afnomasupasal\wp-includes\rest-api\class-wp-rest-server.php(1140): WPGMZA\RestAPI->WPGMZA\{closure}(Object(WP_REST_Request))
+#7 C:\xampp\htdocs\afnomasupasal\wp-includes\rest-api\class-wp-rest-server.php(987): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wpgmza/v1/mark...', Array, NULL)
+#8 C:\xampp\htdocs\afnomasupasal\wp-includes\rest-api\class-wp-rest-server.php(414): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#9 C:\xampp\htdocs\afnomasupasal\wp-includes\rest-api.php(370): WP_REST_Server->serve_request('/wpgmza/v1/mark...')
+#10 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-hook.php(303): rest_api_loaded(Object(WP))
+#11 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#12 C:\xampp\htdocs\afnomasupasal\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp.php(388): do_action_ref_array('parse_request', Array)
+#14 C:\xampp\htdocs\afnomasupasal\wp-includes\class-wp.php(750): WP->parse_request('')
+#15 C:\xampp\htdocs\afnomasupasal\wp-includes\functions.php(1291): WP->main('')
+#16 C:\xampp\htdocs\afnomasupasal\wp-blog-header.php(16): wp()
+#17 C:\xampp\htdocs\afnomasupasal\index.php(17): require('C:\\xampp\\htdocs...')
+#18 {main}
+  thrown in C:\xampp\htdocs\afnomasupasal\wp-content\plugins\wp-google-maps\includes\class.crud.php on line 413
+

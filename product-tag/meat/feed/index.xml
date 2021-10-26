@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>meat &#8211; आफ्नो Masu Pasal</title>
+	<atom:link href="/https://veevekmgr.github.io/masupasal/product-tag/meat/feed/" rel="self" type="application/rss+xml" />
+	<link>/https://veevekmgr.github.io/masupasal</link>
+	<description></description>
+	<lastBuildDate>Wed, 20 Oct 2021 11:26:04 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.8.1</generator>
+
+<image>
+	<url>/https://veevekmgr.github.io/masupasal/wp-content/uploads/2021/10/logo1.png</url>
+	<title>meat &#8211; आफ्नो Masu Pasal</title>
+	<link>/https://veevekmgr.github.io/masupasal</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Chicken Mix Meat</title>
+		<link>/https://veevekmgr.github.io/masupasal/product/chicken-mix-meat/</link>
+					<comments>/https://veevekmgr.github.io/masupasal/product/chicken-mix-meat/#respond</comments>
+		
+		<dc:creator><![CDATA[Veevek]]></dc:creator>
+		<pubDate>Tue, 19 Oct 2021 02:52:49 +0000</pubDate>
+				<guid isPermaLink="false">/https://veevekmgr.github.io/masupasal/?post_type=product&#038;p=3088</guid>
+
+					<description><![CDATA[Chicken is probably the most popular of all meat products. Best of the Best chicken.]]></description>
+										<content:encoded><![CDATA[<p>Chicken is probably the most popular of all meat products. Chicken is probably the most eaten and most loved non-vegetarian food product. This bird was probably domesticated in the very early centuries, after the nomadic man started settling down and domesticated animals for his benefit.</p>
+<p><b>Interesting Facts</b></p>
+<ul>
+<li>The human body can derive about 30 different nutritional substances from just 100 grams of chicken.</li>
+<li>Just as the nutritional value of chicken is very high, so is the energy measure. 100 grams of this meat contains about 916 kilojoules of energy.</li>
+<li>More than half the <i>entrées</i> ordered in fast food chains, hotels, motels, and restaurants are versions of fried chicken.</li>
+<li>The chickens that are used to make soup products are known as “stewing hens”.</li>
+</ul>
+]]></content:encoded>
+					
+					<wfw:commentRss>/https://veevekmgr.github.io/masupasal/product/chicken-mix-meat/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
